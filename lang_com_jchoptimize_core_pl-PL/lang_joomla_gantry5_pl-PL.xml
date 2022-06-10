@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" version="2.5" method="upgrade">
+
+    <name>Spolszczenie JCH Optimize Core</name>
+    <author>Zbigniew Sokal</author>
+    <creationDate>10 June 2022</creationDate>
+    <copyright>(C) 2018-2022 Poradniki Dziadka</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <authorEmail>admin@dziadek.guide</authorEmail>
+    <authorUrl>https://dziadek.guide</authorUrl>
+    <version>7.2.1</version>
+    <description>Polski (pl-PL) pakiet językowy dla komponentu JCH Optimize Core</description>
+
+    <!-- Fileset definition -->
+    <!-- back-end -->
+    <files folder="admin/pl-PL" target="administrator/language/pl-PL">
+        <filename>pl-PL.com_jchoptimize.ini</filename>
+        <filename>pl-PL.com_jchoptimize.sys.ini</filename>
+        <filename>pl-PL.plg_system_jchoptimize.ini</filename>
+        <filename>pl-PL.plg_system_jchoptimize.sys.ini</filename>
+        <filename>pl-PL.plg_system_jchoptimizepagecache.ini</filename>
+        <filename>pl-PL.plg_system_jchoptimizepagecache.sys.ini</filename>
+    </files>
+
+    <updateservers>
+        <server type="collection" priority="1" name="lang_com_jchoptimize_core_pl-PL">https://dziadek.guide/upgrade/translationlist.xml</server>
+    </updateservers>
+</extension>
