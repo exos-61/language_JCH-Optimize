@@ -13,7 +13,7 @@
 
     <!-- Fileset definition -->
     <!-- back-end -->
-    <files folder="admin/pl-PL" target="administrator/language/pl-PL">
+    <files folder="backend/pl-PL" target="administrator/language/pl-PL">
         <filename>pl-PL.com_jchoptimize.ini</filename>
         <filename>pl-PL.com_jchoptimize.sys.ini</filename>
         <filename>pl-PL.mod_jchmodeswitcher.ini</filename>
@@ -25,6 +25,6 @@
     </files>
 
     <updateservers>
-        <server type="collection" priority="1" name="lang_com_jchoptimize_pro_pl-PL">https://dziadek.guide/upgrade/translationlist.xml</server>
+        <server type="collection" priority="1" name="lang_com_jchoptimize_pro_pl-PL">http://upgrade.dziadek.guide/translationlist.xml</server>
     </updateservers>
 </extension>

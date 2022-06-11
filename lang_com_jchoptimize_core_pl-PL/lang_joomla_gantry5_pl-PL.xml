@@ -11,9 +11,8 @@
     <version>7.2.1</version>
     <description>Polski (pl-PL) pakiet językowy dla komponentu JCH Optimize Core</description>
 
-    <!-- Fileset definition -->
     <!-- back-end -->
-    <files folder="admin/pl-PL" target="administrator/language/pl-PL">
+    <files folder="backend/pl-PL" target="administrator/language/pl-PL">
         <filename>pl-PL.com_jchoptimize.ini</filename>
         <filename>pl-PL.com_jchoptimize.sys.ini</filename>
         <filename>pl-PL.plg_system_jchoptimize.ini</filename>
@@ -23,6 +22,6 @@
     </files>
 
     <updateservers>
-        <server type="collection" priority="1" name="lang_com_jchoptimize_core_pl-PL">https://dziadek.guide/upgrade/translationlist.xml</server>
+        <server type="collection" priority="1" name="lang_com_jchoptimize_core_pl-PL">http://upgrade.dziadek.guide/translationlist.xml</server>
     </updateservers>
 </extension>
