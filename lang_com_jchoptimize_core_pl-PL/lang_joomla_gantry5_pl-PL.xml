@@ -9,18 +9,19 @@
     <authorEmail>admin@dziadek.guide</authorEmail>
     <authorUrl>https://dziadek.guide</authorUrl>
     <version>7.2.1</version>
-    <description>Polski (pl-PL) pakiet językowy dla komponentu JCH Optimize Core</description>
-
+    <description>Polski pakiet językowy dla komponentu JCH Optimize Core</description>
     <!-- back-end -->
-    <files folder="backend/pl-PL" target="administrator/language/pl-PL">
-        <filename>pl-PL.com_jchoptimize.ini</filename>
-        <filename>pl-PL.com_jchoptimize.sys.ini</filename>
-        <filename>pl-PL.plg_system_jchoptimize.ini</filename>
-        <filename>pl-PL.plg_system_jchoptimize.sys.ini</filename>
-        <filename>pl-PL.plg_system_jchoptimizepagecache.ini</filename>
-        <filename>pl-PL.plg_system_jchoptimizepagecache.sys.ini</filename>
-    </files>
-
+    <fileset>
+        <files folder="backend" target="administrator/language/pl-PL">
+            <filename>pl-PL.com_jchoptimize.ini</filename>
+            <filename>pl-PL.com_jchoptimize.sys.ini</filename>
+            <filename>pl-PL.plg_system_jchoptimize.ini</filename>
+            <filename>pl-PL.plg_system_jchoptimize.sys.ini</filename>
+            <filename>pl-PL.plg_system_jchoptimizepagecache.ini</filename>
+            <filename>pl-PL.plg_system_jchoptimizepagecache.sys.ini</filename>
+        </files>
+    </fileset>
+    <!-- Serwer aktualizacji -->
     <updateservers>
         <server type="collection" priority="1" name="lang_com_jchoptimize_core_pl-PL">http://upgrade.dziadek.guide/translationlist.xml</server>
     </updateservers>

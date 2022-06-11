@@ -13,16 +13,18 @@
 
     <!-- Fileset definition -->
     <!-- back-end -->
-    <files folder="backend/pl-PL" target="administrator/language/pl-PL">
-        <filename>pl-PL.com_jchoptimize.ini</filename>
-        <filename>pl-PL.com_jchoptimize.sys.ini</filename>
-        <filename>pl-PL.mod_jchmodeswitcher.ini</filename>
-        <filename>pl-PL.mod_jchmodeswitcher.sys.ini</filename>
-        <filename>pl-PL.plg_system_jchoptimize.ini</filename>
-        <filename>pl-PL.plg_system_jchoptimize.sys.ini</filename>
-        <filename>pl-PL.plg_system_jchoptimizepagecache.ini</filename>
-        <filename>pl-PL.plg_system_jchoptimizepagecache.sys.ini</filename>
-    </files>
+    <fileset>
+        <files folder="backend" target="administrator/language/pl-PL">
+            <filename>pl-PL.com_jchoptimize.ini</filename>
+            <filename>pl-PL.com_jchoptimize.sys.ini</filename>
+            <filename>pl-PL.mod_jchmodeswitcher.ini</filename>
+            <filename>pl-PL.mod_jchmodeswitcher.sys.ini</filename>
+            <filename>pl-PL.plg_system_jchoptimize.ini</filename>
+            <filename>pl-PL.plg_system_jchoptimize.sys.ini</filename>
+            <filename>pl-PL.plg_system_jchoptimizepagecache.ini</filename>
+            <filename>pl-PL.plg_system_jchoptimizepagecache.sys.ini</filename>
+        </files>
+    </fileset>
 
     <updateservers>
         <server type="collection" priority="1" name="lang_com_jchoptimize_pro_pl-PL">http://upgrade.dziadek.guide/translationlist.xml</server>
