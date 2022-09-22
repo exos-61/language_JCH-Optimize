@@ -8,8 +8,8 @@
     <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
     <authorEmail>admin@dziadek.guide</authorEmail>
     <authorUrl>https://dziadek.guide</authorUrl>
-    <version>7.2.1</version>
-    <description>Polski pakiet językowy dla komponentu JCH Optimize Core</description>
+    <version>7.2.5</version>
+    <description>Spolszczenie komponentu JCH Optimize Core</description>
     <!-- back-end -->
     <fileset>
         <files folder="backend" target="administrator/language/pl-PL">
