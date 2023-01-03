@@ -27,6 +27,6 @@
     </fileset>
 
     <updateservers>
-        <server type="collection" priority="1" name="lang_com_jchoptimize_pro_pl-PL">http://upgrade.dziadek.guide/translationlist.xml</server>
+        <server type="collection" priority="1" name="lang_com_jchoptimize_pro_pl-PL">https://dziadek.guide/langpack/translationlist.xml</server>
     </updateservers>
 </extension>
